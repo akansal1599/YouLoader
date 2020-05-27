@@ -4,9 +4,6 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import classes from './Toolbar.module.css';
-import {useMediaQuery} from "@material-ui/core";
-
-// const isActive = useMediaQuery("(min-width: 600px)");
 
 const useStyles = makeStyles((theme) => ({
     root: {

@@ -8,7 +8,7 @@ const InputContextProvider = (props) => {
 
     const fetchUrl = () => {
         // event.preventDefault();
-        let str = `http://localhost:5000/?url=${url}`;
+        let str = `https://youloader.herokuapp.com/?url=${url}`;
         axios.get(str)
             .then(response => {
                 setUrl("");

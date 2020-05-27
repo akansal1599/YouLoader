@@ -1,8 +1,6 @@
 import React from 'react';
 
-import Toolbar from "./Toolbar/Toolbar";
 import Container from '@material-ui/core/Container';
-// import classes from './Layout.module.css';
  import Footer from "./Footer/Footer";
  import ButtonAppBar from "./Toolbar/Toolbar";
 
